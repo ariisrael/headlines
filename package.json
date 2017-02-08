@@ -1,0 +1,22 @@
+{
+  "name": "feel-the-news",
+  "version": "1.0.0",
+  "description": "sentiment analysis on conservative news",
+  "main": "sources.js",
+  "scripts": {
+    "test": "node sources.js"
+  },
+  "author": "Arianna Israel",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.4",
+    "cheerio": "^0.22.0",
+    "googleapis": "^16.1.0",
+    "rss-watcher": "^1.3.0",
+    "watson-developer-cloud": "^2.17.0"
+  },
+  "devDependencies": {
+    "chalk": "^1.1.3",
+    "write-json": "^0.2.2"
+  }
+}
